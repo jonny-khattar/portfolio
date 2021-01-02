@@ -1,21 +1,71 @@
 {
     "skills" : [
         {
-            "name": "Java",
-            "value": 4
+            "name": "HTML",
+            "type": "FrontEnd",
+            "value": 5
+        },
+        {
+            "name": "CSS",
+            "type": "FrontEnd",
+            "value": 5
         },
         {
             "name": "React",
+            "type": "FrontEnd",
             "value": 3
         },
         {
-            "name": "HTML",
-            "value": 5
+            "name": "Angular",
+            "type": "FrontEnd",
+            "value": 3
+        },
+        {
+            "name": "Spring Framework",
+            "type": "BackEnd",
+            "value": 4
+        },
+        {
+            "name": "Laravel",
+            "type": "BackEnd",
+            "value": 2
+        },
+        {
+            "name": "NodeJs",
+            "type": "BackEnd",
+            "value": 3
+        },
+        {
+            "name": ".NET Core",
+            "type": "BackEnd",
+            "value": 3
+        },
+        {
+            "name": "MYSQL",
+            "type": "BackEnd",
+            "value": 4
+        },
+        {
+            "name": "Docker",
+            "type": "Other",
+            "value": 3
+        },
+        {
+            "name": "AWS",
+            "type": "Other",
+            "value": 1
+        },
+        {
+            "name": "Git",
+            "type": "Other",
+            "value": 3
         }
+
     ],
     "experience" : [
         {
             "employer": "Syple Technologies",
+            "employer_desc": "Syple technologies is a web application development agency which has developed software focussed on sales, servicing, parts and customer engagement for the automotive industry for clients such as Suttons Motor Group.",
             "title": "Support Developer",
             "start_date": "01/02/2019",
             "end_date": "Present",

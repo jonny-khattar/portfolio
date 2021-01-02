@@ -1,36 +1,32 @@
 import React, { Component } from 'react';
-import portrait from '../images/portrait.jpeg'
-import data from '../data.json';
+import Portrait from '../images/portrait.jpeg'
+import Data from '../data.json';
 import { Experience } from '../components/Experience';
+import { TitledList } from '../components/TitledList';
 
 export class Home extends Component {
     render() {
-        const {skills, experience} = data;
+        const {skills, experience} = Data;
+        const frontEnd = skills.filter(s => s.type === "FrontEnd");
+        const backEnd = skills.filter(s => s.type === "BackEnd");
+        const other = skills.filter(s => s.type === "Other");
+
         return (
             <div>
-                <div className=''>
-                    <img className="portrait" src={portrait} alt="Portrait"></img>
-                </div>
                 <div>
-                    <p>Hi my name is Jonathan Khattar i am a Software Developer based in Sydney Australia and welcome to my online resume portfolio</p>
+                    <img className="portrait" src={Portrait} alt="Portrait"></img>
                 </div>
-                <div>
-                    <h3>Contact Info</h3>
-                    <ul className="contact-info-list">
-                        <li>Email: jonathan.khattar91@gmail.com</li>
-                        <li>Mobile: (+61)423 591 923</li>
-                    </ul>
-                </div>
-                <div>
-                    <h1>
-                        Skills
-                    </h1>
-                    <ul>
-                        {skills.map(s => {
-                            return <li>{s.name}</li>
-                        })}
-                    </ul>
-                </div>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <TitledList title="Front-End" property="name" list={frontEnd}/>
+                        </div>
+                        <div className="col-md-4">
+                            <TitledList title="Back-End" property="name" list={backEnd}/>
+                        </div>
+                        <div className="col-md-4">
+                            <TitledList title="Other" property="name" list={other}/>
+                        </div>
+                    </div>
                 <div>
                     <h1>Experience</h1>
                     {experience.map(e => {

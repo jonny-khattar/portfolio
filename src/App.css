@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+}
+
+.App-Container {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -8,14 +11,9 @@
 .portrait {
   width: 300px;
   border-radius: 100%;
-  margin-top: 24px;
-}
-
-.contact-info-list {
-  list-style: none;
+  margin: 24px;
 }
 
 ul li {
   list-style: none;
-  text-align: left;
 }
