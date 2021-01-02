@@ -1,0 +1,51 @@
+{
+    "skills" : [
+        {
+            "name": "Java",
+            "value": 4
+        },
+        {
+            "name": "React",
+            "value": 3
+        },
+        {
+            "name": "HTML",
+            "value": 5
+        }
+    ],
+    "experience" : [
+        {
+            "employer": "Syple Technologies",
+            "title": "Support Developer",
+            "start_date": "01/02/2019",
+            "end_date": "Present",
+            "responsibilities": [
+                "Support Stuff",
+                "Feature Work",
+                "Database Things"
+            ],
+            "technologies": [
+                "Spring Framework",
+                ".NET Core",
+                "React",
+                "Angular"
+            ]
+        },
+        {
+            "employer": "Love Agency",
+            "title": "Support Analyst",
+            "start_date": "01/09/2017",
+            "end_date": "15/01/2019",
+            "responsibilities": [
+                "Support Stuff",
+                "Feature Work",
+                "Database Things"
+            ],
+            "technologies": [
+                "PHP",
+                "Android Dev",
+                "Jmeter"
+            ]
+        }
+    ]
+}

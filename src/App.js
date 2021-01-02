@@ -1,23 +1,18 @@
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
-import portrait from './images/portrait.jpeg'
-
+import { Projects } from './pages/Projects';
+import { Home } from './pages/Home';
+import { Nav } from './components/Nav';
+import { NotFound } from './pages/NotFound';
 function App() {
   return (
     <div className="App">
-      {/* Insert a basic nav bar with Experience and Projects/Past Work pages */}
-      <div>
-        <img className="portrait" src={portrait} alt="Portrait"></img>
-      </div>
-      <div>
-        <p>Hi my name is Jonathan Khattar i am a Software Developer based in Sydney Australia and welcome to my online resume portfolio</p>
-      </div>
-      <div>
-        <h3>Contact Info</h3>
-        <ul className="contact-info-list">
-          <li>Email: jonathan.khattar91@gmail.com</li>
-          <li>Mobile: (+61)423 591 923</li>
-        </ul>
-      </div>
+      <Nav />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/projects" component={Projects} />
+        <Route component={NotFound} />
+      </Switch>
     </div>
   );
 }
