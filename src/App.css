@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color:#A9B7C6;
 }
 
 .App-Container {
@@ -16,4 +17,14 @@
 
 ul li {
   list-style: none;
+}
+
+.app-title {
+  margin: 24px;
+  font-size: 64px;
+  color: #FFC66D;
+}
+
+h3 {
+  color: #619647
 }

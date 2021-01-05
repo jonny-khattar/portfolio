@@ -1,68 +1,79 @@
 {
-    "skills" : [
+    "skills": [
         {
             "name": "HTML",
             "type": "FrontEnd",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 5
         },
         {
             "name": "CSS",
             "type": "FrontEnd",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 5
         },
         {
             "name": "React",
             "type": "FrontEnd",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 3
         },
         {
             "name": "Angular",
             "type": "FrontEnd",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 3
         },
         {
             "name": "Spring Framework",
             "type": "BackEnd",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 4
         },
         {
             "name": "Laravel",
             "type": "BackEnd",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 2
         },
         {
             "name": "NodeJs",
             "type": "BackEnd",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 3
         },
         {
             "name": ".NET Core",
             "type": "BackEnd",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 3
         },
         {
             "name": "MYSQL",
             "type": "BackEnd",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 4
         },
         {
             "name": "Docker",
             "type": "Other",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 3
         },
         {
             "name": "AWS",
             "type": "Other",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 1
         },
         {
             "name": "Git",
             "type": "Other",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
             "value": 3
         }
-
     ],
-    "experience" : [
+    "experience": [
         {
             "employer": "Syple Technologies",
             "employer_desc": "Syple technologies is a web application development agency which has developed software focussed on sales, servicing, parts and customer engagement for the automotive industry for clients such as Suttons Motor Group.",

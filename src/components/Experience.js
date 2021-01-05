@@ -14,9 +14,9 @@ export class Experience extends Component {
                     <div className="col-md-6">
                         <h5>Responsibilities</h5>
                         <ul>
-                            {experience.responsibilities.map(r => {
+                            {experience.responsibilities.map(responsibility => {
                                 return (
-                                    <li>{r}</li>
+                                    <li>{responsibility}</li>
                                 )
                             })}
                         </ul>
@@ -24,9 +24,9 @@ export class Experience extends Component {
                     <div className="col-md-6">
                         <h5>Technologies</h5>
                         <ul>
-                            {experience.technologies.map(t => {
+                            {experience.technologies.map(technology => {
                                 return (
-                                    <li>{t}</li>
+                                    <li>{technology}</li>
                                 )
                             })}
                         </ul>
